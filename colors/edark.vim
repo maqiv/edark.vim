@@ -90,13 +90,13 @@ endif
 let g:colors_name = "edark"
 
 " Current Line
-highlight CursorLine guibg=#333333 ctermbg=236
+highlight CursorLine guibg=#333333 ctermbg=236 cterm=none
 highlight CursorLineNr guifg=#babdb6 ctermfg=250 gui=none cterm=none
 
 " Default Colors
 highlight Normal guifg=#babdb6 ctermfg=250 guibg=#1e2426 ctermbg=234
 "highlight NonText guifg=#2c3032 ctermfg=235 guibg=#2c3032 ctermbg=235
-highlight NonText guifg=#505456 ctermfg=239 guibg=#2c3032 ctermbg=235
+highlight NonText guifg=#505456 ctermfg=239 guibg=#2c3032 ctermbg=234
 highlight Cursor guibg=#babdb6 ctermbg=250
 highlight ICursor guibg=#babdb6 ctermbg=250
 
@@ -171,7 +171,7 @@ highlight TabLineFill guifg=#0a1012 ctermfg=233
 highlight TabLineSel guifg=#eeeeec ctermfg=255 guibg=#555753 ctermbg=240 gui=none cterm=none
 
 " Matches
-highlight MatchParen guifg=#2e3436 ctermfg=236 guibg=#906090 ctermbg=96
+highlight MatchParen guifg=#2e3436 ctermfg=7 guibg=#906090 ctermbg=24
 
 " Tree
 highlight Directory guifg=#ffffff ctermfg=231
